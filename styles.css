@@ -6,4 +6,46 @@ header .logo {
 
 header {
     display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: baseline;
 }
+
+/* nav {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+} */
+
+nav ul {
+    display: flex;
+  
+    flex-wrap: wrap;
+    
+}
+
+nav li {
+   
+    padding: 30px;
+    font-size: 1.5rem;
+    list-style-type: none;
+    color: red;
+    
+}
+
+@media (max-width: 600px) {
+     ul {
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    header {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+nav li {
+    padding: 5px;
+}
+  }
