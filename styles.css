@@ -95,15 +95,55 @@ background-repeat: no-repeat;
 
 }
 
-.about_us {
+.about_us, .green_solution {
     padding-left: 10%;
     padding-right: 10%;
+    margin-top: 7%;
 }
 
 .about_us p {
     font-size: 1.4rem;
     line-height: 2.5rem
 }
+
+.green_solution p {
+    font-size: 1.4rem;
+    line-height: 2.5rem
+}
+
+#aboutus {
+   width: 100%;
+   margin-top: 10%;
+}
+
+.offer {
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 5%;
+    /* margin-left: 5%;
+    margin-right: 5%; */
+    /* width: 100%; */
+}
+
+.offer div {
+    display: block;
+    justify-content: center;
+   margin-left: 1%;
+   margin-right: 1%;
+   width: 350px;
+   
+}
+
+.offer p {
+    font-size: 1.2rem;
+    line-height: 1.4rem
+}
+
+
+
+
 
 @media (max-width: 600px) {
     nav ul {
